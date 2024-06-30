@@ -1,0 +1,597 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapics.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:  #dfdff5;
+    padding: 37px 120px;  
+    align-items: center;
+}
+
+.logo img{
+    height: 52px;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    @media screen and (max-width:425px) {
+        display: none;
+    }
+}
+
+.nav-link a{
+    color: #15984D;
+}
+
+.header-ul{
+    display: flex; 
+    list-style: none;
+}
+
+.header-ul li a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+    margin-right: 28px;
+    list-style: none;
+}
+
+.login-btn{
+    border-radius: 6px;
+    background-color: #15984D;
+    text-align: center;
+    padding: 16.5px 110px;
+    @media screen and (max-width:425px) {
+        display: none;
+    }
+}
+
+.login-btn a{
+    color: white;
+    text-decoration: none;  
+}  
+
+
+.containers{
+    width: 1440px;
+    height: 4037px;
+    align-items: center;
+}
+
+.farmer-profile{
+    /* width: 1440px; */
+    height: 513px;
+    /* margin: 0px 120px; */
+    flex-shrink: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(/farmersprofile/images/farm.png) lightgray 50% / cover no-repeat;
+}
+
+.profile-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px;
+}
+
+.farmer-info h1{
+    color: var(--Black-1000, #030303);
+    text-align: center;
+    
+    /* SB24 */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin-top: 39px;
+    margin-bottom: 30px;
+    margin-left: 11px;
+    margin-right: 189px;
+}
+
+.farmer-info{
+    width: 364px;
+height: 162px;
+flex-shrink: 0;
+border-radius: 7px;
+background: var(--Background, #FCFCFC);
+
+/* Shadow */
+box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.farmer-info p{
+    color: var(--Secondary-700, #000);
+
+/* M20 */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+
+/* margin-top: 20px; */
+    margin-bottom: 199px;
+    margin-left: 11px;
+    margin-right: 115px;
+}
+
+.profile-icon{
+    width: 200px;
+height: 200px;
+flex-shrink: 0;
+border-radius: 50%;
+background: url(/farmersprofile/images/solomon\ Farmer\ 1.png) lightgray 50% / cover no-repeat;
+}
+
+.second-info{
+    width: 364px;
+height: 162px;
+flex-shrink: 0;
+border-radius: 7px;
+background: var(--Background, #FCFCFC);
+
+/* Shadow */
+box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.second-info p{
+    width: 344px;
+height: 120px;
+flex-shrink: 0;
+color: var(--Black-1000, #030303);
+
+/* R20 */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 120% */
+ margin-top: 39px;
+margin-bottom: 199px;
+margin-left: 11px;
+margin-right: 115px;
+}
+
+.new-harvest{
+    /* display: flex; */
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 40px;
+/* background: var(--Tertiary-Colour, #dd872bdf); */
+background: var(--Yellow-100, #d37a6a);
+margin-top: 40px;
+}
+
+.first-images{
+    display: flex;
+/* width: 1200px; */
+padding: 24px 0px;
+justify-content: center;
+align-items: flex-start;
+gap: 80px;
+
+}
+
+.second-images{
+    display: flex;
+    /* width: 1200px; */
+    padding: 24px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.more{
+    display: flex;
+    /* gap: 400px; */
+    justify-content: space-between;
+    padding-top: 40px;
+    background: var(--Yellow-100, #FFF5D4);
+}
+
+.farm h1{
+    color: var(--Black-1000, #030303);
+text-align: center;
+
+/* SB24 */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.more a{
+    display: flex;
+height: 46px;
+padding: 12px 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 6px;
+}
+
+/* garlic-section */
+.garlic{
+    width: 306px;
+height: 451px;
+flex-shrink: 0;
+background: var(--White, #FCFCFC);
+box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.garlic h2{
+    color: var(--Other, #0E0E0F);
+
+/* R16 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+margin-left: 23px;
+margin-top: -10px;
+}
+
+.price{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8.214px;
+    margin-left: 23px;
+    margin-top: -10px;
+}
+
+.price img{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 100px;
+}
+
+.garlic-img{
+    width: 258px;
+height: 250px;
+flex-shrink: 0;
+margin: 23px;
+}
+
+.rating{
+    margin-left: 23px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.button-buy{
+    display: flex;
+    height: 46px;
+    padding: 12px 16px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+
+.btn-buy{
+    display: flex;
+width: 122px;
+height: 46px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 6px;
+background: var(--Primary-color, #008037);
+text-decoration: none;
+}
+
+.btn-cart{
+    width: 122px;
+    display: flex;
+height: 46px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 6px;
+border: 1px solid var(--Primary-color, #008037);
+background: var(--White, #FCFCFC);
+text-decoration: none;
+}
+
+
+
+/* onions-section */
+.onions{
+    width: 306px;
+height: 451px;
+flex-shrink: 0;
+background: var(--White, #FCFCFC);
+box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.onions h2{
+    color: var(--Other, #0E0E0F);
+
+/* R16 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+margin-left: 23px;
+margin-top: -10px;
+}
+
+.onions-img{
+    width: 258px;
+height: 250px;
+flex-shrink: 0;
+margin: 23px;
+}
+
+/* beans-section */
+.beans{
+    width: 306px;
+height: 451px;
+flex-shrink: 0;
+background: var(--White, #FCFCFC);
+box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.beans h2{
+    color: var(--Other, #0E0E0F);
+
+/* R16 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+margin-left: 23px;
+margin-top: -10px;
+}
+
+.beans-img{
+    width: 258px;
+height: 250px;
+flex-shrink: 0;
+margin: 23px;
+}
+
+/* berries-section */
+.berries{
+    width: 306px;
+height: 451px;
+flex-shrink: 0;
+background: var(--White, #FCFCFC);
+box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.berries h2{
+    color: var(--Other, #0E0E0F);
+
+/* R16 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+margin-left: 23px;
+margin-top: -10px;
+}
+
+.berries-img{
+    width: 258px;
+height: 250px;
+flex-shrink: 0;
+margin: 23px;
+}
+
+/* tomatoes-section */
+.tomatoes{
+    width: 306px;
+height: 451px;
+flex-shrink: 0;
+background: var(--White, #FCFCFC);
+box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tomatoes h2{
+    color: var(--Other, #0E0E0F);
+
+/* R16 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+margin-left: 23px;
+margin-top: -10px;
+}
+
+.tomatoes-img{
+    width: 258px;
+height: 250px;
+flex-shrink: 0;
+margin: 23px;
+}
+
+/* carrots-section */
+
+.carrots{
+    width: 306px;
+height: 451px;
+flex-shrink: 0;
+background: var(--White, #FCFCFC);
+box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.carrots h2{
+    color: var(--Other, #0E0E0F);
+
+/* R16 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+margin-left: 23px;
+margin-top: -10px;
+}
+
+.carrots-img{
+    width: 258px;
+height: 250px;
+flex-shrink: 0;
+margin: 23px;
+}
+
+/* recommended-section */
+.recommended{
+    flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 40px;
+/* background: var(--Tertiary-Colour, #dd872bdf); */
+background: var(--Yellow-100, #d37a6a);
+}
+
+.recommended-products{
+    display: flex;
+/* width: 1200px; */
+padding: 24px 0px;
+justify-content: center;
+align-items: flex-start;
+gap: 80px;
+}
+
+.review{
+height: 295px;
+flex-shrink: 0;
+background: linear-gradient(180deg, #008037 0%, rgba(0, 128, 55, 0.00) 100%);
+margin-top: 40px;
+}
+
+.review-all{
+    display: flex;
+    justify-content: center;
+align-items: center;
+gap: 40px;
+}
+
+.review-carrot{
+    width: 350px;
+height: 192px;
+flex-shrink: 0;
+background: var(--Background, #FCFCFC);
+
+/* Shadow */
+box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.review-images img{
+    width: 129px;
+height: 123px;
+flex-shrink: 0;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+margin: 11px 9px;
+
+}
+
+.review-one{
+    display: flex;
+}
+
+.comment{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.comment p{
+    color: var(--Black-1000, #030303);
+
+/* R16 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+margin-bottom: 25px;
+}
+
+.comment h3{
+    margin-top: 15px;
+}
+
+.first-products{
+    display: flex;
+
+padding: 24px 0px;
+justify-content: center;
+align-items: flex-start;
+gap: 80px;
+background: var(--Yellow-100, #d37a6a);
+}
+
+
+
+
+
+
+/* FOOTER  */
+.main-container {
+    background-color: #000;
+    width: 100%;
+    padding: 64px 120px;
+    @media screen and (max-width:425px) {
+        padding: 50px;
+    }
+}
+
+.footer-nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    @media screen and (max-width:425px) {
+        flex-direction: column;
+        
+    }
+}
+
+.footer-nav {
+    color: #FFF;
+    margin-left: 20px;
+    @media screen and (max-width:425px) {
+        margin-bottom: 30px;
+    }
+}
+
+.footer-ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.report {
+    color: #FFF;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+

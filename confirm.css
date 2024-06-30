@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapics.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    width: 100%;
+}
+
+.square{
+    
+height: 921px;
+flex-shrink: 0;
+border-radius: 20px;
+background: var(--Yellow-400, #FFDD70);
+}
+
+h1{
+    color: #000;
+text-align: center;
+
+/* B40 */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 66px;
+}
+
+h2{
+    color: #000;
+text-align: center;
+
+/* R40 */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 38px 0px;
+}
+
+p{
+    color: #000;
+text-align: center;
+
+/* R32 */
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.ship{
+    margin-top: 72px;
+}
+
+.nig{
+    margin-top: 31px;
+    margin-bottom: 105px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    display: flex;
+width: 285px;
+height: 68px;
+padding: 12px 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+/* margin-left: 194px; */
+text-align: center;
+text-decoration: none;
+}
+
+.white{
+    text-align: center;
+    border-radius: 6px;
+border: 1px solid #15984D;
+background: var(--White, #FCFCFC);
+margin-right: 265px;
+}
+
+.blue{
+    border-radius: 6px;
+background: #15984D;
+}
+

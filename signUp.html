@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./signUp.css">
+    <title>Genesys Agro- Sign up</title>
+     
+</head>
+<body>
+    <main>
+        <div class="signup-box">
+            <img src="./images/logo.png" alt="" class="logo">
+        <h1>Sign Up</h1>
+        <div class="signup-sec-btn">
+            <button class="secondarybtn1" onclick="changeColour(this)">Consumer</button>
+            <button class="secondarybtn" onclick="changeColour(this)">Farmer</button>
+        </div>
+        <form>
+            <label class="required-label">Full Name</label>
+            <input type="text" placeholder="" required>
+            <label>Email</label>
+            <input type="email" placeholder="">
+            <label class="required-label">Phone Number</label>
+            <input type="Phone Number" placeholder="" required>
+            <div class="flex-container">
+                    <div class="custom-input-state">
+                        <label>State</label>
+                        <img src="./Resources/scroll-v.svg" alt="" class="scroll-img">
+                        <input type="State" class="custom-input-state" placeholder="">
+                    </div>
+                    <div class="custom-input">
+                        <label>Address</label>
+                        <input type="address" class="custom-input" placeholder="">
+                    </div>
+                </div>
+                <label class="required-label">Password</label>
+                <div class="eye-icon"><img src="./Resources/eye.svg" alt="" class="eye-icon"></div>
+                <input type="password" placeholder= "&nbsp;&nbsp;&nbsp; ***********" required>
+            </form>
+            <button class="signup-btn"><a href="./index.html">Sign Up</a></button>
+            <div class="signup-para">
+                <p class="signup-para1">You have an account?<a class="login-btn" href="./signIn.html">  Login</a></p>
+            </div>
+            <img src="./Resources/vegetables-basket 1 (1).png" alt="" class="vegetableimage" height="360px">
+    </main>
+    <script src="/landing page/signup.js"></script> 
+</body>
+</html>

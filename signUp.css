@@ -1,0 +1,207 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body {
+      font-family: 'Poppins', sans-serif;
+      padding: 20px; 
+      background: linear-gradient(hsla(146, 34%, 50%, 0.7), hsla(146, 34%, 50%, 0.7)), url('./images/signUpBackground.png');
+      background-size: cover;
+  }
+  
+  .signup-box {
+      background-color: hsla(0, 0%, 99%, 1);
+      width: 674px;
+      height: 952px;
+      border-radius: 20px;
+      position: relative;
+      margin: 2.3rem;
+  }
+  
+  h1 {
+      text-align: center;
+      font-size: 2rem;
+      padding-bottom: 1.5rem;
+  }
+  
+  
+  form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+      margin-left: 124px;
+  }
+  
+  .required-label::after {
+      content: " *";
+      color: hsla(0, 82%, 60%, 1);
+    }
+  
+  .logo {
+      margin-left: 117px;
+      margin-top: 49px;
+      width: 144px;
+      height: 52px;
+    }
+  
+    form label {
+      font-size: 0.75rem;
+      color: hsla(0, 0%, 43%, 1);
+      font-weight: 400;
+      line-height: 20px;
+      width: auto;
+      height: 20px;
+      margin-bottom: 10px;
+      margin-top: 20px;
+    }
+  
+    form input {
+      width: 426px;
+      height: 46px;
+      border: none;
+      border: 1px solid hsla(146, 100%, 25%, 1);
+      border-radius: 6px;
+    }
+  
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 17px;
+  }
+  
+  .custom-input {
+    width: 248px;
+    }
+  
+    .custom-input-state {
+      width: 161px;
+    }
+  
+    .signup-sec-btn {
+      display: flex;
+      width: 424px;
+      height: 46px;
+      margin-left: 125px;
+      justify-content: center;
+      border: none;
+      border: 1px solid hsla(146, 100%, 25%, 1);
+      border-radius: 6px;
+    }
+  
+    .secondarybtn {
+      width: 424px;
+      height: 46px;
+      border-radius: 6px;
+      border: none;
+      border: 1px solid hsla(146, 100%, 25%, 1);
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 1rem;
+      background-color:hsla(0, 0%, 99%, 1);
+      color: hsla(146, 100%, 25%, 1);
+    }
+  
+    .secondarybtn1 {
+      width: 424px;
+      height: 46px;
+      border-radius: 6px;
+      border: none;
+      border: 1px solid hsla(146, 100%, 25%, 1);
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 1rem;
+      background-color: hsla(0, 0%, 99%, 1);
+      color:  hsla(146, 100%, 25%, 1);
+    }
+  
+    .secondarybtn1, .secondarybtn {
+      padding: 10px 20px;
+      background-color: hsla(0, 0%, 99%, 1);
+      color: hsla(146, 100%, 25%, 1);
+      cursor: pointer;
+    }
+  
+    .signup-btn {
+      width: 426px;
+      height: 46px;
+      margin-top: 24px;
+      margin-left: 124px;
+      border: none;
+      border: 1px solid hsla(146, 100%, 25%, 1);
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 1rem;
+      background-color: hsla(146, 100%, 25%, 1);
+      color: hsla(0, 0%, 99%, 1);
+      border-radius: 6px;
+    }
+
+    .signup-btn a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .signup-para {
+     font-weight: 500;
+      color: hsla(0, 0%, 38%, 1);
+      font-size: 0.75rem;
+    }
+  
+    .signup-para1 {
+      margin-top: 36px;
+      margin-left: 238px;
+    }
+  
+    .login-btn {
+      width: 43px;
+      height: 22px;
+      border: none;
+      border: 1px solid hsla(0, 0%, 99%, 1);
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 1rem;
+      background-color: hsla(0, 0%, 99%, 1);
+      color: hsla(146, 100%, 25%, 1);
+      text-decoration: none;
+    }
+  
+  .scroll-img {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: 131px;
+    padding-top: 11px;
+  }
+  
+  .eye-icon {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: 348px;
+    margin-top: 220px;
+    margin-right: 225px;
+    padding-right: 18px;
+  }
+  
+  .vegetableimage {
+  margin-left: -60px;
+  margin-bottom: 900px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  position: absolute;
+  top: 659.99px;
+  left: 3.5px;
+  }
+  
+  

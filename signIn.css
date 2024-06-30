@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 1440px;
+    height: 1024px;
+    background: rgba(85, 170, 122, .7);
+    z-index: -1;
+}
+body{
+    background: url('./images/signInBackground.png');
+    width: 1440px;
+    height: 1024px;   
+    
+}
+
+.main-container{
+    background-color: white;
+    width: 674px;
+    height: 952px;
+    font-family:'Overpass', sans-serif;
+    margin: 36px;
+    border-radius: 20px;
+   background-color: white;
+   align-items: center;
+}
+
+header{
+    padding-top: 49px;
+    padding-left: 117px;
+}
+
+.main-container .welcome{
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 24px;
+    
+}
+.consumerFarmerButton{
+    justify-content: space-between;
+    margin: 120.5px;
+    border: 1px solid;
+    border-color: green;
+    
+    margin-top: 0px;
+    width: 429px;
+    height: 47px;
+    border-radius: 4px;
+    margin-bottom: 72px;
+    
+    align-content: center;
+
+}
+.consumer{
+background-color: white;
+padding: 13px;
+width: 211px;
+color: green;;
+border-radius: 6px;
+cursor: pointer;
+
+}
+.consumer:focus, .consumer:hover{
+    background: green;
+    color: white;
+}
+.consumer:active{
+    background: green;
+    color: white;
+      
+}
+.farmer{
+    background-color: white;
+padding: 13px;
+width: 211px;
+border-radius: 6px;
+cursor: pointer;
+}
+.farmer{
+    color: green;
+}
+.farmer:focus{
+    background: green;
+    color: white;
+}
+.subMainContainer{
+    text-align: center;
+    margin-left:100px;
+    padding: 28px;
+    justify-content: left;
+    text-align-last: left;
+   
+    
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    margin-bottom: 12px;
+    color: rgba(0, 128, 55, 1);
+}
+.emailField{
+    width: 426px;
+    height: 46px; 
+    border: 1px solid;  
+    border-radius: 3px;
+}
+.password{
+    margin-bottom: 12px;
+    color: rgba(109, 109, 109, 1);
+}
+.passwordField{
+    width: 426px;
+    height: 46px;
+    border: 1px solid;
+    border-radius: 3px;
+    /* margin-bottom: 15px; */
+}
+.passwordLinks{
+    justify-content: space-between;
+    display: flex;
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 425px;
+    margin-bottom: 24px;
+    padding-bottom: 0;
+}
+.remember-me{
+    color: rgba(98, 98, 98, 1);
+}
+.forgotPassword{
+    text-decoration: none;
+    color: rgba(98, 98, 98, 1);
+    margin-bottom:24px ;
+}
+.signInButton{
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    background-color: green;
+    padding-left: 190px;
+    padding-right: 155px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 13px;
+    border-radius: 6px;
+    width: 426px;
+}
+.firstLine{
+    border-top: 1px black solid;
+    
+    width: 154px;
+    margin-right: 11px;
+}
+.altSignIn{
+    display: flex;
+    align-items: center;
+    margin: 24px 0;
+    padding-right: 11px;
+    color: rgba(98, 98, 98, 1);
+}
+.secondLine{
+    border-top: 1px black solid;
+    margin-left: 11px;
+    height: 0px;
+    width: 154px
+    
+}
+.googleButton{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 0.7px solid var(--Primary-color, #008037);
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 0px 4px #F2F4F7, 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.altSignUpLink{
+    height: 46px;
+    align-self: center;
+    margin-bottom: 36px;
+    margin: auto;
+    margin-top: 52px;
+    text-decoration-line: none;
+    color: rgba(52, 64, 84, 1)
+}
+.sig{
+    text-decoration-line: none;
+    color:green;
+    font-weight:bold;
+}
+.sig{
+    color: green;
+}
+.googleButton img{
+    margin-right: 12px;
+    width:24px;
+    height: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.overlapped-image{
+    position: absolute;
+    top: 130%;
+}
